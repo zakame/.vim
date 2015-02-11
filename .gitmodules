@@ -7,3 +7,9 @@
 [submodule "bundle/vim-scriptease"]
 	path = bundle/vim-scriptease
 	url = https://github.com/tpope/vim-scriptease.git
+[submodule "bundle/vim-perl"]
+	path = bundle/vim-perl
+	url = https://github.com/vim-perl/vim-perl
+[submodule "bundle/cpan.vim"]
+	path = bundle/cpan.vim
+	url = https://github.com/c9s/cpan.vim
