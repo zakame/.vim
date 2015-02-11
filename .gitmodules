@@ -31,3 +31,9 @@
 [submodule "bundle/vim-sleuth"]
 	path = bundle/vim-sleuth
 	url = https://github.com/tpope/vim-sleuth.git
+[submodule "bundle/vim-dispatch"]
+	path = bundle/vim-dispatch
+	url = https://github.com/tpope/vim-dispatch.git
+[submodule "bundle/vim-prove"]
+	path = bundle/vim-prove
+	url = https://github.com/hokaccha/vim-prove.git
