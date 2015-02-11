@@ -13,3 +13,9 @@
 [submodule "bundle/cpan.vim"]
 	path = bundle/cpan.vim
 	url = https://github.com/c9s/cpan.vim
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = https://github.com/ervandew/supertab.git
+[submodule "bundle/unite.vim"]
+	path = bundle/unite.vim
+	url = https://github.com/Shougo/unite.vim.git
