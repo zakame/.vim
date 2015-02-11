@@ -9,4 +9,3 @@ my [.emacs.d][.emacs.d] setup for my main editor settings.
 
     cd $HOME
     git clone --recursive git://github.com/zakame/.vim
-    ln -sf .vim/vimrc .vimrc
