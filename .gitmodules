@@ -9,10 +9,10 @@
 	url = https://github.com/tpope/vim-scriptease.git
 [submodule "bundle/vim-perl"]
 	path = bundle/vim-perl
-	url = https://github.com/vim-perl/vim-perl
+	url = https://github.com/vim-perl/vim-perl.git
 [submodule "bundle/cpan.vim"]
 	path = bundle/cpan.vim
-	url = https://github.com/c9s/cpan.vim
+	url = https://github.com/c9s/cpan.vim.git
 [submodule "bundle/supertab"]
 	path = bundle/supertab
 	url = https://github.com/ervandew/supertab.git
