@@ -37,3 +37,6 @@
 [submodule "bundle/vim-prove"]
 	path = bundle/vim-prove
 	url = https://github.com/hokaccha/vim-prove.git
+[submodule "bundle/vim-cpanfile"]
+	path = bundle/vim-cpanfile
+	url = https://github.com/moznion/vim-cpanfile.git
