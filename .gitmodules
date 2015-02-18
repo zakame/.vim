@@ -40,3 +40,6 @@
 [submodule "bundle/vim-cpanfile"]
 	path = bundle/vim-cpanfile
 	url = https://github.com/moznion/vim-cpanfile.git
+[submodule "bundle/vim-go"]
+	path = bundle/vim-go
+	url = https://github.com/fatih/vim-go.git
