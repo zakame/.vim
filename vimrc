@@ -7,10 +7,18 @@ Plug 'tpope/vim-scriptease'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-sleuth'
 Plug 'tpope/vim-dispatch'
-Plug 'Shougo/unite.vim'
 Plug 'ervandew/supertab'
 Plug 'bling/vim-airline'
 Plug 'airblade/vim-gitgutter'
+
+" Unite
+Plug 'Shougo/vimproc.vim', { 'do': 'make' }
+Plug 'Shougo/unite.vim'
+Plug 'rstacruz/vim-fastunite'
+
+Plug 'Shougo/neomru.vim'
+Plug 'Shougo/unite-outline'
+Plug 'tsukkee/unite-tag'
 
 " Languages
 Plug 'c9s/cpan.vim'
