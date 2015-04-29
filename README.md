@@ -8,4 +8,6 @@ my [.emacs.d][.emacs.d] setup for my main editor settings.
 ## Setup
 
     cd $HOME
-    git clone --recursive git://github.com/zakame/.vim
+    git clone git://github.com/zakame/.vim
+
+Fire up vim, then `:PlugInstall` to start setting up extensions.
