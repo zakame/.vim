@@ -42,7 +42,7 @@ Plug 'jnurmine/Zenburn'
 
 call plug#end()
 
-colors zenburn
+silent! colors zenburn
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tmuxline#enabled = 0
 let g:neocomplcache_enable_at_startup = 1
