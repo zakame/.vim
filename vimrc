@@ -29,8 +29,12 @@ Plug 'fatih/vim-go'
 Plug 'pangloss/vim-javascript'
 Plug 'avakhov/vim-yaml'
 
+" Theme
+Plug 'jnurmine/Zenburn'
+
 call plug#end()
 
+colors zenburn
 syntax on
 filetype plugin indent on
 let g:airline_powerline_fonts = 1
