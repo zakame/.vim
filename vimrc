@@ -16,6 +16,7 @@ Plug 'Shougo/vimproc.vim', { 'do': 'make' }
 Plug 'Shougo/unite.vim'
 Plug 'rstacruz/vim-fastunite'
 
+Plug 'Shougo/neocomplcache.vim'
 Plug 'Shougo/neomru.vim'
 Plug 'Shougo/unite-outline'
 Plug 'tsukkee/unite-tag'
@@ -38,6 +39,7 @@ colors zenburn
 syntax on
 filetype plugin indent on
 let g:airline_powerline_fonts = 1
+let g:neocomplcache_enable_at_startup = 1
 set nobackup
 set noundofile
 set fillchars=vert:\│
