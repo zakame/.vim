@@ -16,6 +16,7 @@ Plug 'ervandew/supertab'
 Plug 'bling/vim-airline'
 Plug 'airblade/vim-gitgutter'
 Plug 'edkolev/tmuxline.vim'
+Plug 'craigemery/vim-autotag'
 
 " Unite
 Plug 'Shougo/vimproc.vim', { 'do': 'make' }
