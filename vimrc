@@ -15,6 +15,7 @@ Plug 'tpope/vim-dispatch'
 Plug 'ervandew/supertab'
 Plug 'bling/vim-airline'
 Plug 'airblade/vim-gitgutter'
+Plug 'edkolev/tmuxline.vim'
 
 " Unite
 Plug 'Shougo/vimproc.vim', { 'do': 'make' }
@@ -42,6 +43,7 @@ call plug#end()
 
 colors zenburn
 let g:airline_powerline_fonts = 1
+let g:airline#extensions#tmuxline#enabled = 0
 let g:neocomplcache_enable_at_startup = 1
 set nobackup
 set noundofile
