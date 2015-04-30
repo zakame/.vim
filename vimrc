@@ -36,8 +36,6 @@ Plug 'jnurmine/Zenburn'
 call plug#end()
 
 colors zenburn
-syntax on
-filetype plugin indent on
 let g:airline_powerline_fonts = 1
 let g:neocomplcache_enable_at_startup = 1
 set nobackup
