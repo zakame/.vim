@@ -37,6 +37,8 @@ Plug 'fatih/vim-go'
 Plug 'pangloss/vim-javascript'
 Plug 'avakhov/vim-yaml'
 Plug 'rstacruz/vim-css-shorthand'
+Plug 'tpope/vim-rails'
+Plug 'tpope/vim-bundler'
 
 " Theme
 Plug 'jnurmine/Zenburn'
