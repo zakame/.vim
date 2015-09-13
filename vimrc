@@ -63,3 +63,4 @@ set nobackup
 set noundofile
 set fillchars=vert:\│
 nnoremap <F5> :GundoToggle<CR>
+map <c-p> [unite]p
