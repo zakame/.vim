@@ -19,6 +19,8 @@ Plug 'airblade/vim-gitgutter'
 Plug 'edkolev/tmuxline.vim'
 Plug 'craigemery/vim-autotag'
 Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
+Plug 'Raimondi/delimitMate'
+Plug 'sjl/gundo.vim'
 
 " Unite
 Plug 'Shougo/vimproc.vim', { 'do': 'make' }
@@ -60,3 +62,4 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 set nobackup
 set noundofile
 set fillchars=vert:\│
+nnoremap <F5> :GundoToggle<CR>
