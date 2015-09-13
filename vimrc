@@ -18,6 +18,7 @@ Plug 'bling/vim-airline'
 Plug 'airblade/vim-gitgutter'
 Plug 'edkolev/tmuxline.vim'
 Plug 'craigemery/vim-autotag'
+Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 
 " Unite
 Plug 'Shougo/vimproc.vim', { 'do': 'make' }
@@ -51,6 +52,9 @@ silent! colors zenburn
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tmuxline#enabled = 0
 let g:neocomplcache_enable_at_startup = 1
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 set nobackup
 set noundofile
 set fillchars=vert:\│
