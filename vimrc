@@ -42,6 +42,7 @@ Plug 'fatih/vim-go'
 Plug 'nsf/gocode', { 'rtp': 'vim', 'do': '~/.vim/plugged/gocode/vim/symlink.sh' }
 Plug 'pangloss/vim-javascript'
 Plug 'ternjs/tern_for_vim'
+Plug 'moll/vim-node'
 Plug 'avakhov/vim-yaml'
 Plug 'rstacruz/vim-css-shorthand'
 Plug 'tpope/vim-rails'
