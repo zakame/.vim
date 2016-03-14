@@ -57,6 +57,7 @@ call plug#end()
 silent! colors zenburn
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tmuxline#enabled = 0
+let g:go_fmt_command = "goimports"
 let g:neocomplcache_enable_at_startup = 1
 let g:tern#command = ['tern']
 let g:SuperTabDefaultCompletionType = "<c-x><c-o>"
