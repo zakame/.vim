@@ -48,6 +48,7 @@ Plug 'rstacruz/vim-css-shorthand'
 Plug 'tpope/vim-rails'
 Plug 'tpope/vim-bundler'
 Plug 'jceb/vim-orgmode'
+Plug 'davidhalter/jedi-vim'
 
 " Theme
 Plug 'jnurmine/Zenburn'
