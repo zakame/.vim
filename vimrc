@@ -43,6 +43,7 @@ Plug 'nsf/gocode', { 'rtp': 'vim', 'do': '~/.vim/plugged/gocode/vim/symlink.sh' 
 Plug 'pangloss/vim-javascript'
 Plug 'ternjs/tern_for_vim'
 Plug 'moll/vim-node'
+Plug 'digitaltoad/vim-pug'
 Plug 'avakhov/vim-yaml'
 Plug 'rstacruz/vim-css-shorthand'
 Plug 'tpope/vim-rails'
@@ -55,9 +56,10 @@ Plug 'jnurmine/Zenburn'
 
 call plug#end()
 
-silent! colors zenburn
+silent! colors default
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tmuxline#enabled = 0
+let g:airline_theme = "term"
 let g:go_fmt_command = "goimports"
 let g:neocomplcache_enable_at_startup = 1
 let g:tern#command = ['tern']
