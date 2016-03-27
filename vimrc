@@ -52,7 +52,7 @@ Plug 'jceb/vim-orgmode'
 Plug 'davidhalter/jedi-vim'
 
 " Theme
-Plug 'jnurmine/Zenburn'
+" Plug 'jnurmine/Zenburn'
 
 call plug#end()
 
