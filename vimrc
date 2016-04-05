@@ -23,15 +23,9 @@ Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 Plug 'Raimondi/delimitMate'
 Plug 'sjl/gundo.vim'
 
-" Unite
-Plug 'Shougo/vimproc.vim', { 'do': 'make' }
-Plug 'Shougo/unite.vim'
-Plug 'rstacruz/vim-fastunite'
-
-Plug 'Shougo/neocomplcache.vim'
-Plug 'Shougo/neomru.vim'
-Plug 'Shougo/unite-outline'
-Plug 'tsukkee/unite-tag'
+" FZF
+Plug 'junegunn/fzf'
+Plug 'junegunn/fzf.vim'
 
 " Languages
 Plug 'c9s/cpan.vim'
@@ -61,6 +55,7 @@ let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tmuxline#enabled = 0
 let g:airline_theme = "term"
+let g:fzf_command_prefix = "Fzf"
 let g:go_fmt_command = "goimports"
 let g:neocomplcache_enable_at_startup = 1
 let g:tern#command = ['tern']
@@ -72,4 +67,9 @@ set nobackup
 set noundofile
 set fillchars=vert:\│
 nnoremap <F5> :GundoToggle<CR>
-map <c-p> [unite]p
+map <c-p><c-f> :FzfFiles<CR>
+map <c-p><c-g> :FzfGitFiles<CR>
+map <c-p><c-b> :FzfBuffers<CR>
+map <c-p><c-t> :FzfTags<CR>
+map <c-p><c-r> :FzfHistory<CR>
+map <c-p><c-c> :FzfAg<CR>
