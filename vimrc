@@ -73,3 +73,4 @@ map <c-p><c-b> :FzfBuffers<CR>
 map <c-p><c-t> :FzfTags<CR>
 map <c-p><c-r> :FzfHistory<CR>
 map <c-p><c-c> :FzfAg<CR>
+map <c-p><c-o> :FzfBLines<CR>
