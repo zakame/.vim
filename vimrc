@@ -22,6 +22,7 @@ Plug 'craigemery/vim-autotag'
 Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 Plug 'Raimondi/delimitMate'
 Plug 'sjl/gundo.vim'
+Plug 'luochen1990/rainbow'
 
 " FZF
 Plug 'junegunn/fzf'
@@ -51,6 +52,8 @@ Plug 'davidhalter/jedi-vim'
 call plug#end()
 
 silent! colors default
+let g:rainbow_active = 1
+let g:rainbow_conf = { 'guifgs': ['darkgray'], 'ctermfgs': ['darkgray'] }
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tmuxline#enabled = 0
