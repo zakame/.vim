@@ -23,6 +23,7 @@ Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 Plug 'Raimondi/delimitMate'
 Plug 'sjl/gundo.vim'
 Plug 'luochen1990/rainbow'
+Plug 'mattn/emmet-vim'
 
 " FZF
 Plug 'junegunn/fzf'
@@ -53,7 +54,11 @@ call plug#end()
 
 silent! colors default
 let g:rainbow_active = 1
-let g:rainbow_conf = { 'guifgs': ['darkgray'], 'ctermfgs': ['darkgray'] }
+let g:rainbow_conf = { 
+      \ 'guifgs': ['darkgray'], 
+      \ 'ctermfgs': ['darkgray'],
+      \ 'separately': { 'html': 0 }
+      \ }
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tmuxline#enabled = 0
