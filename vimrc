@@ -46,6 +46,7 @@ Plug 'tpope/vim-rails'
 Plug 'tpope/vim-bundler'
 Plug 'jceb/vim-orgmode'
 Plug 'davidhalter/jedi-vim'
+Plug 'junegunn/limelight.vim'
 
 " Theme
 " Plug 'jnurmine/Zenburn'
@@ -53,6 +54,8 @@ Plug 'davidhalter/jedi-vim'
 call plug#end()
 
 silent! colors default
+let g:limelight_conceal_ctermfg = 'gray'
+let g:limelight_concel_guifg = 'DarkGray'
 let g:rainbow_active = 1
 let g:rainbow_conf = { 
       \ 'guifgs': ['darkgray'], 
