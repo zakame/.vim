@@ -75,6 +75,7 @@ let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 set nobackup
+set nofoldenable
 set noundofile
 set fillchars=vert:\│
 nnoremap <F5> :GundoToggle<CR>
