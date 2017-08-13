@@ -33,6 +33,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'c9s/cpan.vim'
 Plug 'moznion/vim-cpanfile'
 Plug 'vim-perl/vim-perl'
+Plug 'vim-perl/vim-perl6'
 Plug 'hokaccha/vim-prove'
 Plug 'fatih/vim-go'
 Plug 'nsf/gocode', { 'rtp': 'vim', 'do': '~/.vim/plugged/gocode/vim/symlink.sh' }
