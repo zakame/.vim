@@ -24,6 +24,7 @@ Plug 'Raimondi/delimitMate'
 Plug 'sjl/gundo.vim'
 Plug 'luochen1990/rainbow'
 Plug 'mattn/emmet-vim'
+Plug 'jamessan/vim-gnupg'
 
 " FZF
 Plug 'junegunn/fzf'
