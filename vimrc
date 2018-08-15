@@ -36,7 +36,7 @@ Plug 'moznion/vim-cpanfile'
 Plug 'vim-perl/vim-perl'
 Plug 'vim-perl/vim-perl6'
 Plug 'hokaccha/vim-prove'
-Plug 'fatih/vim-go', { 'tag' : 'v1.18' }
+Plug 'fatih/vim-go', { 'tag' : 'v1.15' }
 Plug 'nsf/gocode', { 'rtp': 'vim', 'do': '~/.vim/plugged/gocode/vim/symlink.sh' }
 Plug 'pangloss/vim-javascript'
 Plug 'ternjs/tern_for_vim'
