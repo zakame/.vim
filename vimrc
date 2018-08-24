@@ -55,6 +55,13 @@ Plug 'junegunn/limelight.vim'
 
 call plug#end()
 
+" Command for git grep
+" - fzf#vim#grep(command, with_column, [options], [fullscreen])
+command! -bang -nargs=* FzfGGrep
+  \ call fzf#vim#grep(
+  \   'git grep --line-number '.shellescape(<q-args>), 0,
+  \   { 'dir': systemlist('git rev-parse --show-toplevel')[0] }, <bang>0)
+
 silent! colors default
 let g:limelight_conceal_ctermfg = 'gray'
 let g:limelight_concel_guifg = 'DarkGray'
@@ -88,3 +95,4 @@ map <c-p><c-t> :FzfTags<CR>
 map <c-p><c-r> :FzfHistory<CR>
 map <c-p><c-c> :FzfAg<CR>
 map <c-p><c-o> :FzfBLines<CR>
+map <c-p><c-e> :FzfGGrep<CR>
