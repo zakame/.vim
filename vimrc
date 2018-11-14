@@ -14,8 +14,6 @@ Plug 'tpope/vim-sleuth'
 Plug 'tpope/vim-dispatch'
 Plug 'tpope/vim-speeddating'
 Plug 'ervandew/supertab'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
 Plug 'airblade/vim-gitgutter'
 Plug 'edkolev/tmuxline.vim'
 Plug 'craigemery/vim-autotag'
@@ -71,10 +69,6 @@ let g:rainbow_conf = {
       \ 'ctermfgs': ['darkgray'],
       \ 'separately': { 'html': 0 }
       \ }
-let g:airline_powerline_fonts = 1
-let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#tmuxline#enabled = 0
-let g:airline_theme = "term"
 let g:fzf_command_prefix = "Fzf"
 let g:go_fmt_command = "goimports"
 let g:neocomplcache_enable_at_startup = 1
