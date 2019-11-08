@@ -48,6 +48,7 @@ Plug 'tpope/vim-bundler'
 Plug 'jceb/vim-orgmode'
 Plug 'davidhalter/jedi-vim'
 Plug 'junegunn/limelight.vim'
+Plug 'rust-lang/rust.vim'
 
 " Theme
 " Plug 'jnurmine/Zenburn'
