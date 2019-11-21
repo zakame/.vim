@@ -73,9 +73,6 @@ let g:go_fmt_command = "goimports"
 let g:neocomplcache_enable_at_startup = 1
 let g:tern#command = ['tern']
 let g:SuperTabDefaultCompletionType = "<c-x><c-o>"
-let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<c-b>"
-let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 set nobackup
 set nofoldenable
 set noundofile
