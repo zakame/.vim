@@ -90,6 +90,6 @@ map <c-p><c-g> :FzfGitFiles<CR>
 map <c-p><c-b> :FzfBuffers<CR>
 map <c-p><c-t> :FzfTags<CR>
 map <c-p><c-r> :FzfHistory<CR>
-map <c-p><c-c> :FzfAg<CR>
+map <c-p><c-c> :FzfRg<CR>
 map <c-p><c-o> :FzfBLines<CR>
 map <c-p><c-e> :FzfGGrep<CR>
