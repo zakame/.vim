@@ -16,6 +16,7 @@ Plug 'tpope/vim-speeddating'
 Plug 'ervandew/supertab'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'tomasiser/vim-code-dark'
 Plug 'airblade/vim-gitgutter'
 Plug 'edkolev/tmuxline.vim'
 Plug 'craigemery/vim-autotag'
@@ -75,12 +76,16 @@ let g:rainbow_conf = {
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tmuxline#enabled = 0
-let g:airline_theme = "term"
+let g:airline_theme = "codedark"
 let g:fzf_command_prefix = "Fzf"
 let g:go_fmt_command = "goimports"
 let g:neocomplcache_enable_at_startup = 1
 let g:tern#command = ['tern']
 let g:SuperTabDefaultCompletionType = "<c-x><c-o>"
+set background=dark
+set t_Co=256
+set t_ut=
+colorscheme codedark
 set nobackup
 set nofoldenable
 set noundofile
