@@ -14,6 +14,8 @@ Plug 'tpope/vim-sleuth'
 Plug 'tpope/vim-dispatch'
 Plug 'tpope/vim-speeddating'
 Plug 'ervandew/supertab'
+Plug 'tomasiser/vim-code-dark'
+Plug 'airblade/vim-gitgutter'
 Plug 'edkolev/tmuxline.vim'
 Plug 'craigemery/vim-autotag'
 Plug 'Raimondi/delimitMate'
@@ -32,7 +34,7 @@ Plug 'moznion/vim-cpanfile'
 Plug 'vim-perl/vim-perl'
 Plug 'vim-perl/vim-perl6'
 Plug 'hokaccha/vim-prove'
-Plug 'fatih/vim-go', { 'tag' : 'v1.15' }
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'nsf/gocode', { 'rtp': 'vim', 'do': '~/.vim/plugged/gocode/vim/symlink.sh' }
 Plug 'pangloss/vim-javascript'
 Plug 'ternjs/tern_for_vim'
@@ -74,6 +76,10 @@ let g:go_fmt_command = "goimports"
 let g:neocomplcache_enable_at_startup = 1
 let g:tern#command = ['tern']
 let g:SuperTabDefaultCompletionType = "<c-x><c-o>"
+set background=dark
+set t_Co=256
+set t_ut=
+colorscheme codedark
 set nobackup
 set nofoldenable
 set noundofile
